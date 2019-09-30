@@ -1,5 +1,5 @@
 /* Import fonts from Google Fonts */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700|Lato:300,400,500,700|Lora:300,400,500,700|IBM+Plex+Sans:300,400,500,700");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700|Lato:300,400,500,700|Lora:300,400,500,700|IBM+Plex+Sans:300,400,500,700|Avenir:300,400,500,700");
 
 /* Importing all components file */
 @import url("components/cards.css");
@@ -9,13 +9,17 @@
 /* General for fonts and colors */
 body {
   margin: 100px;
-  font-family: 'Raleway';
+  font-family: 'Lora';
 }
 
 h1{
-  font-family: 'IBM Plex Sans';
+  font-family: 'Lato';
   font-weight:500;
   color: #484848;
+}
+
+p{
+  color:#6B6B6B;
 }
 
 a {
