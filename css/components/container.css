@@ -1,0 +1,16 @@
+.container {
+ width: 100%;
+ margin: 40px auto;
+}
+
+.food-container{
+  display:flex;
+  justify-content:space-between;
+  margin-top:20px;
+}
+
+.airbnb-container{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:60px;
+}

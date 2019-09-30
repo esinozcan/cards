@@ -1,0 +1,178 @@
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+.card-category {
+  width:24%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  color:white;
+  background-size:cover;
+  background-position: center;
+  height:220px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  text-shadow: 1px 1px 3px rgba(0,0,0,1);
+}
+
+.card-category:hover{
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+.card-product{
+  margin-top: 20px;
+  display:flex;
+  height:150px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  position:relative;
+}
+
+.price-position{
+    position: absolute;
+    right:20px;
+    bottom:20px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.price-position span{
+    color:grey;
+    font-weight:lighter;
+    font-size:16px;
+}
+
+.card-product img{
+  object-fit: cover;
+  height:150px;
+  width:25%;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+
+.card-product:hover{
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+
+.content{
+  padding: 40px 20px;
+}
+
+.content p{
+  padding-top: 20px;
+}
+
+.card-product h3 {
+  font-weight: bold;
+}
+
+.card-airbnb{
+  margin-top: 40px;
+  background-size:cover;
+  background-position: center;
+  height:230px;
+  width:24%;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.card-airbnb p {
+ margin:15px 10px;
+ color:#484848;
+  }
+
+.card-airbnb img{
+  object-fit: cover;
+  height:180px;
+  width:100%;
+  background-position: right;
+}
+
+.card-airbnb:hover{
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+
+.gradient {
+ background-image: linear-gradient(black, black);
+}
+
+#all-activities{
+ margin-top:20px;
+ color:#484848;
+ font-weight:bold;
+}
+
+#all-activities:hover{
+ text-decoration: underline;
+}
+
+.hotels-container{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  position:relative;
+  height:280px;
+  margin-top:20px;
+  border-radius:6px;
+}
+
+.header{
+  margin-top:80px;
+}
+
+.card-museums{
+ position:relative;
+ height:270px;
+ width:32%;
+ border-radius:4px;
+ background-color:white;
+ box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.card-museums img{
+ height:180px;
+ width:100%;
+ object-fit: cover;
+ border-radius:4px;
+}
+
+
+.card-museums-footer p{
+ margin-top:10px;
+}
+
+.card-museums-footer h3{
+ font-weight:300px;
+}
+
+.card-museums-footer{
+  display:flex;
+  justify-content:space-between;
+  align-items: flex-end;
+  padding:16px;
+}
+
+
+.card-museums:hover{
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+
+.museums-container{
+  display:flex;
+  justify-content: space-between;
+  margin-top:20px;
+}
+
+.pricing {
+ font-size:18px;
+}
+
+.card-museums .avatar{
+    position: absolute;
+    left: 270px;
+    top: 120px;
+    border-radius:50%;
+    width:80px;
+    height:100px;
+}
+
