@@ -8,14 +8,18 @@
 
 /* General for fonts and colors */
 body {
-  margin: 100px;
-  font-family: 'Raleway';
+  font-family: 'Avenir';
 }
 
 h1{
   font-family: 'Lato';
   font-weight:500;
   color: #484848;
+}
+
+h2,h3,h4{
+  font-family: 'Lato';
+  font-weight: 700;
 }
 
 p{
